@@ -1,0 +1,22 @@
+h2{
+    font-size:30px !important;
+
+}
+
+
+.btn-success:hover{
+    background-color:rgb(17, 59, 229);
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 4px 1px 38px rgb(81, 94, 243);};
+    to{box-shadow: 4px 1px 38px rgb(96, 231, 231);};
+}
+    
+
